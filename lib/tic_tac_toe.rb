@@ -14,7 +14,7 @@ class TicTacToe
   
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    @computerTurnCount = 1
+    #@computerTurnCount = 1
   end
   
   def display_board
@@ -59,7 +59,7 @@ class TicTacToe
     index = computerRandomChoice
     move(index, current_player)
     display_board
-    @computerTurnCount += 1
+    #@computerTurnCount += 1
   end
   
   def randomIndex
