@@ -10,7 +10,7 @@ class TicTacToe
     [2,4,6]
   ] 
   
-  @computerTurnCount = 1
+  #@computerTurnCount = 1
   
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
@@ -31,7 +31,6 @@ class TicTacToe
   
   def move(index, player) 
     @board[index] = player
-    #return @board
   end
   
   def position_taken?(index)
