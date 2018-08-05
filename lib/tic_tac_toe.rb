@@ -51,7 +51,7 @@ class TicTacToe
   end
   
   def computer_turn
-    puts "Computer's turn #{@computerTurnCount} ... thinking (or not)!"
+    puts "Computer's turn ... thinking (or not)!"
     sleep(1)
     index = computerRandomChoice
     move(index, current_player)
