@@ -116,7 +116,7 @@ class TicTacToe
     while !over?
       turn
     end
-    if (winner)
+    if winner
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
@@ -131,8 +131,8 @@ class TicTacToe
         computer_turn
       end
     end
-    if (winnee = winner)
-      puts "Congratulations #{winnee}!"
+    if winner
+      puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
     end
